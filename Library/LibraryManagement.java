@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// This is for learning purposes
 public class LibraryManagement {
     private Library library = new Library();
 
@@ -41,9 +42,9 @@ public class LibraryManagement {
                     System.out.println("Member added successfully.");
                     break;
                 case 2:
-                    System.out.print("Enter book ID: ");
+                    System.out.print("Enter the book ID: ");
                     id = scanner.nextInt();
-                	System.out.print("Enter book title: ");
+                	System.out.print("Enter the book title: ");
                     String title = scanner.next();
                     
                     scanner.nextLine();
@@ -122,8 +123,6 @@ public class LibraryManagement {
                     System.out.println("Exiting. Good Bye..");
                     running = false;
                     break;
-                default:
-                    System.out.println("Invalid choice! Please try again.");
             }
         }
     }
